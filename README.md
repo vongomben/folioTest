@@ -1,2 +1,2 @@
 # folioTest
-a testing environment for jekyll -folio te,mplate
+a testing environment for jekyll -folio template
