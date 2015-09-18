@@ -1,6 +1,6 @@
 ---
 layout: page
-title: about
+title: Chi Siamo
 permalink: /about/
 ---
 <!--<img class="col one right" src="/img/prof_pic.jpg">-->

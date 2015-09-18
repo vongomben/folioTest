@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: schede
 title: Project
 description: a project without background image
 img:

@@ -3,18 +3,24 @@ layout: default
 ---
 
 <div class="header-bar">
-  <h1>Fablab For Kids</h1>
+  <!--<h1>Fablab For Kids</h1>
   <h2>Future generazioni alle prese con nuove tecnologie</h2>
   <br/>
   <hr>
   <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>-->
+
 </div>
 
 
 <ul class="post-list">
     {% for post in paginator.posts %}
       <li>
-        <img src="{{site.baseurl}}/img/{{post.img}}">
+        <img src="{{site.baseurl}}/img/{{post.img}}" height="600" width="600" align="middle">
         <h2><a class="post-title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
         <p class="post-meta">{{ post.date | date: '%B %-d, %Y — %H:%M' }}</p>
         <p>{{ post.description }}</p>
