@@ -6,7 +6,9 @@
 
       <div class="trigger">
         <!-- {{ site.title }} instead of blog -->
-        <a class="page-link" href="http://fablabtorino.org/"><img src="{{ site.baseurl }}/img/forkids.jpeg" width="200" height="50" alt="" /></a>
+        <a class="page-link" href="http://fablabtorino.org/"><img src="{{ site.baseurl }}/img/FablabforKids_LogoWhite-01.png" width="200" height="80" alt="" /></a>
+        
+        <div class="rightAlign">
         <a class="page-link" href="{{ site.baseurl }}/">Home</a>
 
         {% for page in site.pages %}
@@ -14,6 +16,7 @@
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
           {% endif %}
         {% endfor %}
+        </div>
 
       </div>
     </nav>
